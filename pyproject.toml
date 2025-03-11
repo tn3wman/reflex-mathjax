@@ -9,7 +9,7 @@ description = "Reflex custom component mathjax"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.10"
-authors = [{ name = "Tyler", email = "" }]
+authors = [{ name = "Tyler", email = "tn3wman@icloud.com" }]
 keywords = ["reflex","reflex-custom-components"]
 
 dependencies = ["reflex>=0.7.1"]
@@ -17,9 +17,12 @@ dependencies = ["reflex>=0.7.1"]
 classifiers = ["Development Status :: 4 - Beta"]
 
 [project.urls]
+homepage = "https://github.com/tn3wman/reflex-mathjax"
+source = "https://github.com/tn3wman/reflex-mathjax"
 
 [project.optional-dependencies]
 dev = ["build", "twine"]
+
 
 [tool.setuptools.packages.find]
 where = ["custom_components"]
