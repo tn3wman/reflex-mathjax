@@ -1,2 +1,2 @@
-reflex==0.7.1
-reflex-mathjax
+reflex>=0.8.0
+reflex-mathjax>=0.0.1

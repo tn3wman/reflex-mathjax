@@ -1,28 +1,27 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "reflex-mathjax"
-version = "0.0.1"
+version = "0.0.2"
 description = "Reflex custom component mathjax"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.10"
-authors = [{ name = "Tyler", email = "tn3wman@icloud.com" }]
-keywords = ["reflex","reflex-custom-components"]
-
-dependencies = ["reflex>=0.7.1"]
+authors = [
+    { name = "Tyler" },
+]
+dependencies = [
+    "reflex >= 0.8.0"
+]
 
 classifiers = ["Development Status :: 4 - Beta"]
 
-[project.urls]
-homepage = "https://github.com/tn3wman/reflex-mathjax"
-source = "https://github.com/tn3wman/reflex-mathjax"
+[tool.poetry]
+packages = [
+    { include = "reflex_mathjax", from = "src" },
+]
 
-[project.optional-dependencies]
-dev = ["build", "twine"]
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
 
-
-[tool.setuptools.packages.find]
-where = ["custom_components"]
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
