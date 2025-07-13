@@ -4,7 +4,7 @@ version = "0.0.2"
 description = "Reflex custom component mathjax"
 readme = "README.md"
 license = { text = "Apache-2.0" }
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.12"
 authors = [
     { name = "Tyler" },
 ]
