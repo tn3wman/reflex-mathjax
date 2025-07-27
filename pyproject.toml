@@ -1,10 +1,10 @@
 [project]
 name = "reflex-mathjax"
-version = "0.0.2"
+version = "0.0.3"
 description = "Reflex custom component mathjax"
 readme = "README.md"
 license = { text = "Apache-2.0" }
-requires-python = ">=3.10,<3.12"
+requires-python = ">=3.10,<=3.13"
 authors = [
     { name = "Tyler" },
 ]
